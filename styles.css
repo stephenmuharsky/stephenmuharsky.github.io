@@ -147,7 +147,6 @@ nav a:focus{
 .container-main{
     width: 90%;
     margin: 0 auto;
-
 }
 
 .page-home{
@@ -165,7 +164,6 @@ nav a:focus{
     padding: 1em;
     margin-top: 4em;
     max-width: 700px;
-    border: 1px solid black;
 }
 .main-title{
     margin-bottom: 2em;
@@ -284,7 +282,7 @@ header{
     margin-bottom: 2em;
     position: relative;
     right: 18px;
-    border: 3px solid indigo;
+    border: 4px solid indigo;
 }
 
 /*************************
@@ -349,7 +347,9 @@ header{
 }
 
 .image-travel{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
 }
 
 
