@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+h1,
+h4{
+    text-align: center;
+}
+
+
+/*************************
+        Typography
+**************************/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+.homepage-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.page-about,
+.page-travel{
+    color: #666;
+    font-size:1em;
+}
+
+
+footer{
+    text-align: center;
+    color: #aaa;
+    font-size: 0.85em;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 400;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.language-bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-up{
+    position: relative;
+    bottom: 5px;
+}
+
+.page-about a{
+    color: indigo;
+}
+
+.page-about ul{
+    line-height: 1.4;
+}
+.page-about p{
+    line-height: 1.6;
+}
+
+.skill-title{
+    font-weight: 700;
+}
+
+.LSkill{
+    color: black;
+}
+
+.first-letter::first-letter{
+    font-size: 250%;
+}
+
+.language-title{
+    position: relative;
+    bottom: 11px;
+}
+/*************************
+        Navigation
+**************************/
+nav{
+    margin-bottom: 2em;
+}
+
+
+.nav-main ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.nav-about ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.about-list{
+    margin-right: 1rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: indigo;
+}
+
+.main-list a{
+    font-size: 1.25rem;
+}
+
+
+nav a:hover,
+nav a:focus{
+    color: #666;
+}
+
+.btn-main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-about{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+/*************************
+        Layout
+**************************/
+.container-main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page-home{
+    margin-top: 8em;
+    max-width: 490px;
+}
+
+.page-about{
+    margin-top: 4em;
+    max-width: 600px;
+    padding: 1em;
+}
+
+.page-travel{
+    padding: 1em;
+    margin-top: 4em;
+    max-width: 600px;
+}
+.main-title{
+    margin-bottom: 2em;
+}
+
+/* Header on about page*/
+header{
+    height: 1em;
+    width: 100%;
+}
+
+/* Icons*/
+.icon-holder{
+    display: flex;
+    justify-content: center;
+    font-size: 1.125em;
+    margin-bottom: 2em;
+}
+.icon-holder a{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.icon-holder a:hover,
+.icon-holder a:focus{
+    color: indigo;
+    transform: scale(1.25,1.25);
+}
+
+/* Skillbar */
+.skillbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.CSskill{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+    margin-bottom: 4px;
+    padding: 0px 0.75em;
+}
+
+#cslanguages{
+    margin-bottom: 2em;
+}
+.LSkill{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom:4px;
+}
+
+.language-bar{
+    background-color: #aaa;
+    height: 3rem;
+}
+
+/* CS skill percentages*/
+#HTML5{
+    width: 95%;
+}
+#Java{
+    width: 95%;
+}
+#CSS3{
+    width:90%;
+}
+#Python{
+    width:90%;
+}
+#C{
+    width: 80%;
+}
+#Tableau{
+    width: 80%;
+}
+#SQL{
+    width:75%;
+}
+#Javascript{
+    width: 60%;
+}
+#Git{
+    width: 60%;
+}
+#R{
+    width:50%;
+}
+
+/* Language percentage skills*/
+#english{
+    width: 85%;
+}
+
+#russian{
+    width: 85%;
+}
+#spanish{
+    width: 81%;
+}
+#french{
+    width:75%;
+}
+#latin{
+    width: 55%;
+}
+
+.map{
+    width: 100%;
+    margin-bottom: 2em;
+    /* position: relative; */
+    /* right: 70px; */
+    border: 4px solid indigo;
+}
+
+/*************************
+        Divider
+**************************/
+.divider-line {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    background-color: #dbdbdb;
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+.divider {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.divider-content {
+    color: #8e8e8e;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+/*************************
+        Images
+**************************/
+.image-homepage{
+    display: block;
+    width: 275px;
+    border-radius: 5%;
+    margin: 0 auto;
+    border: 2px solid transparent;
+}
+
+.image-about{
+    display: block;
+    width: 350px;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.image-travel{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.image-homepage:hover,
+.image-homepage:focus{
+    opacity: 0.7;
+}
+
