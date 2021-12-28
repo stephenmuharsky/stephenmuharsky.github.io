@@ -274,7 +274,7 @@ header{
     width:75%;
 }
 #Javascript{
-    width: 60%;
+    width: 75%;
 }
 #Git{
     width: 60%;
@@ -452,9 +452,6 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-#moon{
-    display: none;
-}
 
 .toggle-moon,
 .toggle-sun{
