@@ -364,6 +364,23 @@ header{
     border: 2px solid transparent;
 }
 
+/* Homepage main image out of place on smaller screen widths. */
+@media (max-width: 350px){
+    .image-homepage{
+        position: relative;
+        left:0.25em;
+    }
+}
+
+@media (max-width: 450px){
+    .image-homepage{
+        position: relative;
+        left:1em;
+    }
+}
+
+
+
 .image-about{
     display: block;
     width: 90%;
