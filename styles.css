@@ -3,6 +3,7 @@
     --h1: black;
     --icon: black;
     --hover: indigo;
+    --lanTitle: black;
 }
 
 .darkmode{
@@ -10,6 +11,7 @@
     --h1: indigo;
     --icon: indigo;
     --hover: #aaa;
+    --lanTitle: #aaa;
 }
 
 
@@ -17,6 +19,7 @@ body{
     background: var(--background);
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+
 }
 
 body::-webkit-scrollbar {
@@ -43,6 +46,8 @@ h1{
     margin-bottom: 0;
     color: var(--h1);
 }
+
+
 
 .homepage-subtitle{
     font-family: 'Montserrat', sans-serif;
@@ -105,9 +110,15 @@ footer{
     font-size: 250%;
 }
 
+.line-height-reduce{
+    line-height: 10%;
+}
+
 .language-title{
     position: relative;
     bottom: 5px;
+    z-index: -1;
+    color: var(--lanTitle);
 }
 /*************************
         Navigation
@@ -134,10 +145,15 @@ header{
     position:relative;
     justify-content: flex-end;
     list-style: none;
+
 }
 
 #nav-list-top{
     margin-right: 1rem;
+    position: fixed;
+    top: 0px;
+    right: 0%;
+    background-color: var(--background);
 }
 
 .nav-list a {
@@ -198,6 +214,7 @@ nav a:focus{
 header{
     height: 1em;
     width: 100%;
+    z-index: 1;
 }
 
 /* Icons*/
@@ -220,13 +237,14 @@ header{
     transform: scale(1.25,1.25);
 }
 
-/* Skillbar */
+/* fbar */
 .skillbar{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 3em;
 }
 
 .CSskill{
@@ -378,6 +396,16 @@ header{
     .image-homepage{
         position: relative;
         left:1em;
+    }
+    #nav-list-top{
+        right: -5%;
+    }
+    .language-title{
+        padding-right: 5px;
+    }
+    .move-up{
+        position:relative;
+        bottom:0.5em;
     }
 }
 
