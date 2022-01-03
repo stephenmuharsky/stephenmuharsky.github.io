@@ -421,6 +421,12 @@ header{
     }
 }
 
+@media(max-width: 1410px){
+    #nav-list-top{
+        width:100%;
+    }
+}
+
 
 
 .image-about{
