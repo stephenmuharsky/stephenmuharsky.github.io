@@ -390,6 +390,17 @@ header{
         position: relative;
         left:0.25em;
     }
+    #about-list{
+        position: relative;
+        left: 6%;
+    }
+    .switch{
+        position: relative;
+        right: 10px;
+    }
+    #nav-list-top{
+        width: 100%;
+    }
 }
 
 @media (max-width: 450px){
@@ -399,6 +410,7 @@ header{
     }
     #nav-list-top{
         right: -5%;
+        width:100%;
     }
     .language-title{
         padding-right: 5px;
