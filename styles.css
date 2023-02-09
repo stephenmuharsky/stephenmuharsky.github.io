@@ -191,7 +191,7 @@ nav a:focus{
 }
 
 .page-home{
-    margin-top: 8em;
+    margin-top: 5em;
     max-width: 490px;
 }
 
@@ -543,11 +543,16 @@ input:checked + .slider:before {
 #darkmode-toggle-home{
     float: right;
     position: relative;
-    bottom: 6rem;
+    bottom: 4.5rem;
     right:1rem;
 }
 
 #darkmode-toggle-about{
     position: relative;
     bottom: 2rem;
+}
+
+.travel-text-second-line{
+    position: relative;
+    bottom: 7px;
 }
